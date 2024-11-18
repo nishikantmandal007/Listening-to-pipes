@@ -30,7 +30,7 @@ Water distribution networks face increasing challenges from undetected leaks, le
 ## **How to Access the Sensor Design**
 
 The 3D model of the sensor is hosted on Onshape for easy review, modification, and reproduction.  
-[Access the Sensor Design on Onshape](https://cad.onshape.com/documents/de8fed7f016caf4965896c4d/w/0d7d896a89fb43d0c3416577/e/a78ea21db1a8834494ccab25?renderMode=0&uiState=673b535e79710858710a0024)  
+Link :- https://cad.onshape.com/documents/de8fed7f016caf4965896c4d/w/0d7d896a89fb43d0c3416577/e/a78ea21db1a8834494ccab25?renderMode=0&uiState=673b535e79710858710a0024) 
 
 ### **File Details**
 - **Format:** CAD (editable in Onshape)  
