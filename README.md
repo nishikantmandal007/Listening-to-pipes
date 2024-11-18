@@ -32,6 +32,8 @@ Water distribution networks face increasing challenges from undetected leaks, le
 The 3D model of the sensor is hosted on Onshape for easy review, modification, and reproduction.  
 Link :- https://cad.onshape.com/documents/de8fed7f016caf4965896c4d/w/0d7d896a89fb43d0c3416577/e/a78ea21db1a8834494ccab25?renderMode=0&uiState=673b561079710858710a0f62
 
+## Please open the link in Incognito window if it says 404 forbidden 
+
 ### **File Details**
 - **Format:** CAD (editable in Onshape)  
 - **Usage:** Open, view, or export to different formats as needed (e.g., STL for 3D printing).  
