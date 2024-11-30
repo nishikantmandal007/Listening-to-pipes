@@ -1,0 +1,22 @@
+listening-to-pipes
+├── data/
+│   ├── raw/               # Raw dataset
+│   ├── processed/         # Preprocessed dataset
+├── models/
+│   ├── densenet.py        # DenseNet model for pressure data
+│   ├── wavenet.py         # WaveNet model for hydrophone data
+│   ├── vit.py             # Vision Transformer for feature fusion
+│   ├── cbam.py            # CBAM implementation
+│   ├── physics_loss.py    # Physics-informed loss function
+├── utils/
+│   ├── data_preprocessing.py  # Preprocessing functions (Wavelet, Kriging)
+│   ├── train_utils.py         # Helper functions for training
+│   ├── evaluation.py          # Evaluation metrics
+├── scripts/
+│   ├── train.py           # Training pipeline
+│   ├── test.py            # Testing and inference
+├── notebooks/
+│   ├── exploratory.ipynb  # Dataset exploration and preprocessing experiments
+├── results/               # Save results, plots, and logs
+├── requirements.txt       # Python dependencies
+└── README.md              # Project description and instructions
