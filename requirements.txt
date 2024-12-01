@@ -90,3 +90,4 @@ urllib3==2.2.3
 wcwidth==0.2.13
 webencodings==0.5.1
 yarg==0.1.9
+torchvision==0.20.1
