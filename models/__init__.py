@@ -3,7 +3,6 @@ import torch.nn as nn
 from .cbam import CBAM
 from .densenet import DenseNet
 from .wavenet import WaveNet
-from .mlp import FeatureFusionTransformer
 from .physics_loss import create_physics_informed_loss
 
 class MultimodalPhysicsInformedClassifier(nn.Module):
@@ -17,9 +16,6 @@ class MultimodalPhysicsInformedClassifier(nn.Module):
         # Feature Extractors
         self.pressure_densenet = DenseNet(in_channels=1)
         self.hydrophone_wavenet = WaveNet(in_channels=1)
-        
-        # Feature Fusion Transformer
-        self.feature_fusion = FeatureFusionTransformer()
         
         # MLP Classifier
         self.mlp = nn.Sequential(
@@ -42,11 +38,8 @@ class MultimodalPhysicsInformedClassifier(nn.Module):
         # Concatenate Features
         combined_features = torch.cat([pressure_features, hydrophone_features], dim=1)
         
-        # Feature Fusion
-        fused_features = self.feature_fusion(combined_features)
-        
         # Classification
-        output = self.mlp(fused_features)
+        output = self.mlp(combined_features)
         
         return output
 
